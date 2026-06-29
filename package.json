@@ -1,0 +1,28 @@
+{
+  "name": "shooting-war-auto-hack",
+  "version": "1.0.0",
+  "description": "Tự động hóa Đại Chiến Sân Cỏ - Liên Quân Mobile",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "shooting-war": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shooting-war",
+    "lien-quan",
+    "auto-hack",
+    "aov"
+  ],
+  "author": "@XuanCuong2006",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
