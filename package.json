@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "playwright install chromium",
+    "postinstall": "playwright install chromium && playwright install-deps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
